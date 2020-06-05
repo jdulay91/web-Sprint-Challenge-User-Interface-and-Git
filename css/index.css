@@ -297,3 +297,25 @@ footer nav a {
     80%{border-radius: 40%;}
     100%{border-radius: 50%;}
 }
+
+.box:hover{
+    animation-name: colorchanger;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes colorchanger{
+    0%{background-color: white;}
+    10%{background-color: aqua;}
+    20%{background-color: brown;}
+    30%{background-color: darkslateblue;}
+    40%{background-color: indianred;}
+    50%{background-color: lightslategray;}
+    60%{background-color: mediumvioletred;}
+    70%{background-color: mintcream;}
+    80%{background-color: plum;}
+    90%{background-color: seagreen;}
+    100%{background-color: yellowgreen;}
+}
