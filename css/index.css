@@ -205,3 +205,78 @@ footer nav a {
     background-color:dodgerblue;
 }
 
+#about-image{
+    display:flex;
+    justify-content: space-around;
+    margin:20px auto;
+    width: 60%;
+}
+
+#lambda-about{
+    margin-top: 10px;
+    margin-right:5%;
+
+}
+
+#about-page{
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px dotted black;
+    margin-bottom: 5%;
+}
+
+.text-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px dotted black;
+    
+}
+
+#big-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    
+}
+
+.divider{
+    display:flex;
+    height:70%;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.thumbnail{
+    width:90%;
+}
+
+.text-container p{
+    font-size: 1rem;
+    margin-bottom: 5%;
+}
+
+.button a{
+    text-decoration: none;
+    color:black;
+
+}
+
+.button{
+    border-radius: 6px;
+}
+
+#about-footer-text{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+    
+#about-footer{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
