@@ -38,8 +38,9 @@ Semantic HTML would be a way of adding meaning to HTML. It gives other developer
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-block elements create a new line meaning they take up their own space
-inline elements go in line 
+block elements take up space of container, it forces a new line and you can add width/margin/padding/border and height properties to it
+
+inline elements go in line, and you cannot edit their width/margin/padding/border and height properties 
 
 3. What are the 4 areas of the box model?
 
